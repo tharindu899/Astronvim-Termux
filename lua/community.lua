@@ -8,7 +8,7 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.tailwindcss" },
-  { import = "astrocommunity.colorscheme.nightfox-nvim" },
+  { import = "astrocommunity.colorscheme.rose-pine" },
   -- { import = "astrocommunity.completion.cmp-cmdline" },
   { import = "astrocommunity.recipes.cache-colorscheme" },
   { import = "astrocommunity.completion.cmp-nerdfont" },
@@ -17,6 +17,6 @@ return {
   { import = "astrocommunity.comment.ts-comments-nvim" },
   -- { import = "astrocommunity.recipes.astrolsp-auto-signature-help" },
   { import = "astrocommunity.recipes.diagnostic-virtual-lines-current-line" },
-
+  { import = "astrocommunity.utility.noice-nvim" },
   -- import/override with your plugins folder
 }
